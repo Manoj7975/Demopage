@@ -1,0 +1,106 @@
+*{
+font-weight: bolder;
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+
+
+
+/* nav bar */
+.navbar{
+    border: 2px solid black;
+    height: 75px;
+    text-align: center;
+    background-color: #000711;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+}
+.right>button{
+    padding: 2px 10px 2px 10px;
+
+}
+.right{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.right>button:hover{
+    color: white;
+    background-color: #000711;
+
+}
+/* form */
+.formholder{
+    border: 2px solid black;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222831;
+    
+}
+form{
+   
+    padding: 20px;
+    width: 400px;
+     border-radius: 20px;
+     background-color: #EEEEEE;
+
+}
+.form-items{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.gender-box{
+   
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form-items >button{
+    
+    width: 100%;
+    padding: 10px;
+    transition: all 0.2s;
+    border: 20px;
+    background-color: #222831;
+    color: white;
+
+}
+input{
+    border: 2px solid grey;
+    padding: 5px;
+    width: 300px;
+    transition: all 0.2s;
+}
+label{
+    
+    padding: 5px;
+}
+.form-items >button:hover{
+    border: 2px solid black;
+   color: white;
+   background-color:#000711;
+    
+}
+label:hover{
+    color: #222831;
+
+}
+.form-items>button{
+    margin: 5px;
+}
